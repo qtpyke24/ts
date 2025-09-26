@@ -1,0 +1,22 @@
+{
+  "name": "my-ts-project",
+  "version": "1.0.0",
+  "description": "Autocomplete & Autocorrect Tiếng Việt với TypeScript và Viet74K",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "api": "ts-node src/ui/api.ts",
+    "cli": "ts-node src/ui/cli.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.19.15",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.9.2"
+  }
+}
